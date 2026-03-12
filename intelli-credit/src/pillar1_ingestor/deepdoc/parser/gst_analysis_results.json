@@ -1,0 +1,29 @@
+{
+  "test1_clean": {
+    "risk_level": "LOW",
+    "score": 0,
+    "flags": 0
+  },
+  "test2_fraud": {
+    "risk_level": "CRITICAL",
+    "score": 100,
+    "flags": [
+      {
+        "type": "GSTR_MISMATCH_HIGH",
+        "severity": "HIGH"
+      },
+      {
+        "type": "CIRCULAR_TRADING_CRITICAL",
+        "severity": "HIGH"
+      },
+      {
+        "type": "ITC_OVERUSE",
+        "severity": "MEDIUM"
+      },
+      {
+        "type": "OCCASIONAL_LATE_FILINGS",
+        "severity": "LOW"
+      }
+    ]
+  }
+}
